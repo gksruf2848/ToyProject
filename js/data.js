@@ -1,10 +1,10 @@
 const qnaList = [
   {
-    q: '1. ',
+    q: '1. 첫 번째 질문입니당당숭구리당',
     a: [
-      { answer: 'a. ', type: ['cow', 'tiger', 'dragon', 'chick'] },
-      { answer: 'b. ', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
-      { answer: 'c. ', type: ['sheep', 'pig' ] },
+      { answer: 'a. 첫 번째 답', type: ['cow', 'tiger', 'dragon', 'chick'] },
+      { answer: 'b. 두 번째 답', type: ['mouse', 'rabbit', 'horse', 'snake', 'dog', 'monkey'] },
+      { answer: 'c. 세 번째 답', type: ['sheep', 'pig' ] },
     ]
   },
   {
@@ -89,7 +89,7 @@ const qnaList = [
     ]
   },
   {
-    q: '12. ,
+    q: '12. ',
     a: [
       { answer: 'a. ', type: ['rabbit', 'horse', 'dragon', 'chick' ] },
       { answer: 'b. ', type: ['mouse', 'tiger', 'snake', 'dog', 'monkey'] },
