@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./css/default.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/qna.css">
+  <link rel="stylesheet" href="./css/result.css">
   <link rel="stylesheet" href="./css/animation.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,7 @@
 
 <body>
   <div class="container">
-    <section id="main" class="mx-auto mt-5 py-5 px-3">
+    <section id="main" class="mx-auto my-5 py-5 px-3">
       <h1>만결 박사의 심리 테스트</h1>
       <div class="col-lg-6 col-md-8 col-sm-10 col- mx-auto">
         <img src="./img/main.png" alt="mainImage" class="img-fluid">
@@ -28,6 +29,7 @@
       </p>
       <button type="button" class="btn btn-success mt-3" onclick="js:begin()">시작하기</button>
     </section>
+
     <section id="qna">
       <div class="status mt-5 mx-auto">
         <div class="statusBar">
@@ -41,8 +43,23 @@
 
       </div>
     </section>
-    <section id="result">
 
+    <section id="result">
+      <h1>결과가 나왔읍니다.</h1>
+      <div class="resultName">
+
+      </div>
+      <div id="resultImg" class="col-lg-6 col-md-8 col-sm-10 col- mx-auto">
+
+      </div>
+      <div class="resultDesc">
+
+      </div>
+      <p>
+        만결 박사의 mbti 연구소<br>
+        해볼텨? 버튼 눌러
+      </p>
+      <button type="button" class="btn btn-success mt-3" onclick="js:begin()">공유하기</button>
     </section>
     <script src="./js/data.js" charset="utf-8"></script>
     <script src="./js/start.js" charset="utf-8"></script>
