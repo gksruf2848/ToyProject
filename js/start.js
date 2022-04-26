@@ -5,6 +5,8 @@ function addAnswer(answerText, qIdx) {
   var a = document.querySelector('.answerBox');
   var answer = document.createElement('button');
   answer.classList.add('answerList');
+  answer.classList.add('my-3');
+  answer.classList.add('py-3');
   a.appendChild(answer);
   answer.innerHTML = answerText;
 
