@@ -2,7 +2,7 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 const endPoint = 12;
-const select = [];
+const select = [0,0,0,0,0,0,0,0,0,0,0,0];
 
 function calResult() {
   var pointArray = [
@@ -82,7 +82,7 @@ function addAnswer(answerText, qIdx, idx) {
       children[i].style.animation = "fadeOut 0.5s";
     }
     setTimeout(() => {
-      select[qIdx] = idx;
+      select[] = idx;
       for (let i = 0; i < children.length; i++) {
         children[i].style.display = 'none';
       }
