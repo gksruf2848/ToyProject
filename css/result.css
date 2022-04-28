@@ -13,3 +13,15 @@
 .resultDesc{
   font-size: 22px;
 }
+
+.kakao{
+  color: white;
+  background-color: #FFE500;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus {
+  background-color: whitesmoke;
+  color: #FFE500;
+}
