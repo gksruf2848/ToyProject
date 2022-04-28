@@ -6,6 +6,7 @@ const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function calResult() {
   var result = select.indexOf(Math.max(...select));
+  console.log(result);
   return result;
 }
 
@@ -46,9 +47,9 @@ function addAnswer(answerText, qIdx, idx) {
       children[i].style.animation = "fadeOut 0.5s";
     }
     setTimeout(() => {
-      var target = qnaList[idx].a[select[idx]].type;
-      for(let i = 0; i < target.type.length; i++) {
-        select[type[i]]++;
+      var target = qnaList[qIdx].a[idx].type;
+      for(let i = 0; i < target.length; i++) {
+        select[target[i]]++;
       }
 
       for (let i = 0; i < children.length; i++) {
