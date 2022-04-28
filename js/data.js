@@ -116,50 +116,50 @@ const qnaList = [
 const infoList = [
   {
     name: '<쥐>',
-    desc: ''
+    desc: 'a'
   },
   {
     name: '<소>',
-    desc: ''
+    desc: 'b'
   },
   {
     name: '<호랑이>',
-    desc: ''
+    desc: 'c'
   },
   {
     name: '<토끼>',
-    desc: ''
+    desc: 'd'
   },
   {
     name: '<용>',
-    desc: ''
+    desc: 'e'
   },
   {
     name: '<뱀>',
-    desc: ''
+    desc: 'f'
   },
   {
     name: '<말>',
-    desc: ''
+    desc: 'g'
   },
   {
     name: '<양>',
-    desc: ''
+    desc: 'h'
   },
   {
     name: '<원숭이>',
-    desc: ''
+    desc: 'i'
   },
   {
     name: '<닭>',
-    desc: ''
+    desc: 'j'
   },
   {
     name: '<개>',
-    desc: ''
+    desc: 'k'
   },
   {
     name: '<돼지>',
-    desc: ''
+    desc: 'l'
   },
 ]
